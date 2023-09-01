@@ -1,24 +1,44 @@
-Contribution: 2015-08-05 20:00
+# Chat-LangChain-Faiss-Streamlit-py
 
-Contribution: 2015-08-06 20:00
+ChatGPT-like app for querying pdf files.  User can upload a pdf file and the app will allow for queries against it.  Built on Langchain, OpenAI, FAISS, Streamlit. 
+Inspired by YouTube Video from [Prompt Engineer](https://youtube.com/@engineerprompt).
 
-Contribution: 2015-08-06 20:01
+![Process Flow](images/screenshot-02-process-flow.png)
+## Installation
+### Prerequisites:
+- Python 3.8 and above
+- [OpenAI API key](https://platform.openai.com/account/api-keys)
 
-Contribution: 2015-08-06 20:02
+#### 1) Clone repo
 
-Contribution: 2015-08-07 20:00
+#### 2) Create virtual env (e.g. [venv](https://docs.python.org/3/library/venv.html))
 
-Contribution: 2015-08-07 20:01
+#### 3) Install required python packages via pip
+```bash
+pip install -r requirements.txt
+```
+#### 4) Create .env file from example and copy over API key
+```bash
+cp .env.example .env
+```
+## Usage
+#### Launch app from terminal
+```bash
+streamlit run app.py
+```
+#### Open App in browser & follow prompts
+```url
+http://localhost:8501/
+``` 
+####
+## Screenshots
+![User Prompt & Reponse](images/screenshot-01-user-prompt-response.png "User Prompt & Reponse")
 
-Contribution: 2015-08-07 20:02
+## Contributing
 
-Contribution: 2015-08-07 20:03
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
 
-Contribution: 2015-08-08 20:00
+## License
 
-Contribution: 2015-08-08 20:01
-
-Contribution: 2015-08-09 20:00
-
-Contribution: 2015-08-09 20:01
-
+[MIT](https://choosealicense.com/licenses/mit/)
